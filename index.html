@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+  </head>
+  <body>
+    <form action="/" method="post" id="myForm">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" required/>
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastName" required/>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required/>
+      <label for="dateOfBirth">Date Of Birth:</label>
+      <input type="date" id="dob" required/>
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="number" id="phoneNumber" required/>
+      <input type="submit" value="submit" />
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
